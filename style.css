@@ -561,3 +561,51 @@ footer {
     padding: 20px;
   }
 }
+/* General styles already defined above */
+
+/* Additional media queries for tablets and small laptops */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 15px;
+  }
+
+  .menuItem {
+    margin: 15px;
+    font-size: 18px;
+  }
+
+  .sliderTitle,
+  .sliderPrice {
+    font-size: 40px;
+  }
+
+  .productTitle {
+    font-size: 60px;
+  }
+
+  .footerLeft,
+  .footerRight {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menuItem {
+    font-size: 16px;
+  }
+
+  .sliderTitle,
+  .sliderPrice {
+    font-size: 50px;
+  }
+
+  .productTitle {
+    font-size: 65px;
+  }
+
+  .footerLeft,
+  .footerRight {
+    padding: 40px;
+  }
+}
+
